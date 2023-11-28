@@ -1,1 +1,19 @@
-<p>signup works!</p>
+<h1>Registro</h1>
+<div class="registro">
+    <div class="formulario">
+
+        {{message}}
+        
+        <label for="usuario">Usuario</label>
+        <input id="usuario" type="text" name="usuario" placeholder="Usuario" required>
+
+        <label for="correo">Correo</label>
+        <input id="correo" type="text" name="correo" placeholder="Correo" required>
+        
+        <label for="password">Contraseña</label>
+        <input id="password" type="password" placeholder="Contraseña" name="password" required>
+        
+        <button (click)="registrar()" class="iniciar-sesion" type="submit" title="Ingresar" name="Ingresar">Enviar</button>
+        <button (click)="LogIn()" class="signup" title="registro" name="Ingresar">Iniciar Sesión</button>
+    </div>
+</div>

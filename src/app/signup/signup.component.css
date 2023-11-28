@@ -1,0 +1,37 @@
+.registro {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.formulario {
+    background: rgb(38, 1, 68)000;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.formulario label {
+    text-align: left;
+    font-size: larger;
+}
+
+.iniciar-sesion {
+    background: rgb(61, 0, 173)00;
+    border-radius: 10px;
+}
+
+.password {
+    background: rgb(61, 0, 173)00;
+    border-radius: 10px;
+}
+
+.signup {
+    background: rgb(61, 0, 173)00;
+    border-radius: 10px;
+}
